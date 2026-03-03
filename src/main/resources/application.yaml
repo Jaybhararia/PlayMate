@@ -1,6 +1,8 @@
 spring:
   application:
     name: Playmate
+    secret :
+      key : "ItIsAVerySecureKeyReallyReallySecureThatItsVeryHardToBreak12345"
 
   h2:
     console:
