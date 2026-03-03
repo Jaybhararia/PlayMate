@@ -18,7 +18,7 @@ import java.util.Date;
 public class JwtUtils {
 
     @Value("${spring.application.secret.key}")
-    private static String SECRET;
+    private String SECRET;
 
     public String getTokenFromHeader(HttpServletRequest httpServletRequest){
         String jwt = httpServletRequest.getHeader("Authorization");
